@@ -11,13 +11,13 @@ Admin dashboard for controlling/managing:
 
 ### Dependencies
 
-`yarn install`
+`npm i`
 
 ## Configuration
 
   - Copy the template file `.env.example` into own file `.env`
 
-  - Example: `PORT=9000`
+  - Example: `PORT=8080`
 
 ## System start
 
@@ -25,11 +25,11 @@ Admin dashboard for controlling/managing:
 
   - cmd: `pm2 start pm2/script_admin_board.sh`
 
-  - Server listens at: `104.248.144.168:9000`
+  - Server listens at port `8080`
 
 ### Local development
 
-  - cmd: `yarn dev`
+  - cmd: `npm run dev`
 
-  - Server listens at: `localhost:9000`
+  - Server listens at port `8080`
 
