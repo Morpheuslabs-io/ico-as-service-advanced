@@ -6,11 +6,11 @@ Provides rest APIs for admin- and user boards
 
 ### Dependencies
 
-`yarn install`
+`npm i`
 
 ### MongoDB
 
-**Link:** https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+The workspace should be created with the techstack that has MongoDB pre-installation.
 
 ## Configuration
 
@@ -22,18 +22,18 @@ Provides rest APIs for admin- and user boards
 
 ### Start MongoDB
 
-  - cmd: `pm2 start pm2/script_start_mongo.sh`
+  - MongoDB server should be running by default for the running workspace
 
-  - MongoDB server listens at: `localhost:27017`
+  - MongoDB server listens at port `27017`
 
 ### Start server (production)
 
-  - in background:  `yarn start`
+  - in background:  `npm start`
 
-  - Server listens at: `localhost:3777`
+  - Server listens at port: `3777`
 
 ### Start server (development)
 
-  - in foreground:  `yarn dev`
+  - in foreground:  `npm run dev`
 
-  - Server listens at: `localhost:3777`
+  - Server listens at port: `3777`

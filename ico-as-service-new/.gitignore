@@ -1,7 +1,7 @@
 node_modules/
 package-lock.json
 public_static/
-database/*
+database/*.db
 script/*.txt
 data/*
 token-vesting-ui/npm-debug.log

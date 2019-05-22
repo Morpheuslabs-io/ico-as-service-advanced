@@ -95,6 +95,12 @@ http://pm2.keymetrics.io/docs/usage/quick-start/
 
 #### Start API server
 
+**Build smart contract**
+
+  - This is done only once. After that, do again if smart contract is modified.
+
+  - cmd: `npm run build`
+
 **in foreground**
 
 - `npm run server-rinkeby`: for interacting with testnet rinkeby
@@ -103,9 +109,9 @@ http://pm2.keymetrics.io/docs/usage/quick-start/
 
 **in background**
 
-- `pm2 start pm2/script_server_rinkeby.sh`: for interacting with testnet rinkeby
+- `pm2 start pm2/script_wizard_server_rinkeby.sh`: for interacting with testnet rinkeby
 
-- `pm2 start pm2/script_server_mainnet.sh`: for interacting with mainnet
+- `pm2 start pm2/script_wizard_server_mainnet.sh`: for interacting with mainnet
 
 #### Start cron-job of ICO
 
