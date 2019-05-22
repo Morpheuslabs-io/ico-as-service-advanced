@@ -1,0 +1,95 @@
+// Here you can add other styles
+.header-fixed {
+  .app-body {
+    margin-top: 70px;
+  }
+}
+
+.sidebar {
+  background: #383271;
+
+  .nav-link {
+    padding: 1rem 1.75rem;
+
+    .nav-icon {
+      color: #bab4f1;
+    }
+
+    &.active {
+      background: #443d92;
+
+      .nav-icon {
+        color: #bab4f1;
+      }
+    }
+
+    &:hover {
+      background: #4e46a8;
+    }
+  }
+
+  .sidebar-minimizer {
+    flex: 0 0 64px;
+  }
+}
+
+.app-header {
+  height: 70px;
+  background-color: #3d3880;
+  border-bottom: 1px solid #5a5692;
+
+  .navbar-brand {
+    width: 200px;
+  }
+}
+
+.app-footer {
+  background-color: #352f71;
+  border-top: 1px solid #4e4888;
+  color: #bab4f1;
+
+  a {
+    color: #2ada76;
+  }
+}
+
+.main {
+  background-color: #2f2969;
+  color: #bab4f1;
+
+  .breadcrumb {
+    background-color: #352f71;
+    border-bottom: 1px solid #4e4888;
+    color: #bab4f1;
+
+    a {
+      color: #2ada76;
+    }
+
+    .breadcrumb-item.active {
+      color: #bab4f1;
+    }
+  }
+
+  .card {
+    background-color: #352f71;
+    border: 1px solid #352f70;
+
+    .card-header {
+      background-color: #3d3880;
+      border-bottom: 1px solid #383271;
+    }
+  }
+
+  .form-control {
+    background-color: #312b6a;
+    border: 1px solid #3d3686;
+    color: #ffffff;
+  }
+
+  .input-group-text {
+    background-color: #312b6a;
+    border: 1px solid #3d3686;
+    color: #bab4f1;
+  }
+}
