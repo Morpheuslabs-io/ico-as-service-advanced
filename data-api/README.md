@@ -8,6 +8,8 @@ Provides rest APIs for admin- and user boards
 
 `npm i`
 
+and `npm audit fix --force` if required
+
 ### MongoDB
 
 The workspace should be created with the techstack that has MongoDB pre-installation.

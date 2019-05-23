@@ -109,9 +109,9 @@ http://pm2.keymetrics.io/docs/usage/quick-start/
 
 **in background**
 
-- `pm2 start pm2/script_wizard_server_rinkeby.sh`: for interacting with testnet rinkeby
+- `pm2 start pm2/script_chain_server_rinkeby.sh`: for interacting with testnet rinkeby
 
-- `pm2 start pm2/script_wizard_server_mainnet.sh`: for interacting with mainnet
+- `pm2 start pm2/script_chain_server_mainnet.sh`: for interacting with mainnet
 
 #### Start cron-job of ICO
 
