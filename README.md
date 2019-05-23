@@ -2,11 +2,15 @@
 
 Contain a number of components all together for providing the ICO-as-service:
 
-  - `ico-as-service-admin`: the admin board
-  - `ico-as-service-api`: the API server
-  - `ico-as-service-new`: the ICO wizard server
-  - `ico-as-service-user`: the user board
+  - `admin-board`: provide the admin board
+  - `data-api`: provide rest APIs for data storage
+  - `chain-api`: provide rest APIs for blockchain-related handling
+  - `user-board`: provide the user board
+
+Each component is described in detail in its `README`
 
 ## Installation, Configuration and System Start
 
-Please refer to the `REAME.md` file provided in each component.
+  - It's recommended to create a 5GB-RAM workspace with pre-installed MongoDB for deployment.
+
+  - Please refer to the `REAME.md` file provided in each component.
