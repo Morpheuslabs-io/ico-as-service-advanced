@@ -18,7 +18,7 @@ The workspace should be created with the techstack that has MongoDB pre-installa
 
   - Copy the template file `.env.example` into own file `.env`
 
-  - Example: `PORT=3777`
+  - Example: `PORT=3000`
 
 ## System start
 
@@ -32,10 +32,18 @@ The workspace should be created with the techstack that has MongoDB pre-installa
 
   - in background:  `npm start`
 
-  - Server listens at port: `3777`
+  - Server listens at port: `3000`
 
 ### Start server (development)
 
   - in foreground:  `npm run dev`
 
-  - Server listens at port: `3777`
+  - Server listens at port: `3000`
+
+### MongoDB-related handling in NodeJS
+
+Please refer to the following files:
+
+  - data-api/src/config/mongoose.js: show how to connect to MongoDB
+  - data-api/src/models/contract.model.js: show how to define db schema
+  - data-api/src/controllers/contract.controller.js: show how to store/retrieve data into/from db

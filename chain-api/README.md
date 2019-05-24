@@ -172,3 +172,7 @@ Please install `sqlite3` tool if not yet
 - Example: `select * from address2;`
 
 - Example: `select * from user;`
+
+#### Sqlite-related handling in NodeJS
+
+Please refer to the file `chain-api/script/sqlite.js` for code snippet of CRUD operations against `sqlite3`
