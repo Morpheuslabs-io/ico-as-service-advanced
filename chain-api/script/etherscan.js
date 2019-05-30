@@ -34,14 +34,14 @@ exports.getTxFee = async (contractAddr, global) => {
   return txFee; 
 }
 
-async function test() {
-  let global={};
-  global.ETHERSCAN_API_KEY='KCUPM62T94YYXRK6KJFK3VMHVBRASKTHVR';
-  global.ETHERSCAN_NETWORK='rinkeby'
-  global.OWNER_ADDR = '0x8847F80cB1b2B567679B3166A0C828453e122c7F'
+// async function test() {
+//   let global={};
+//   global.ETHERSCAN_API_KEY='KCUPM62T94YYXRK6KJFK3VMHVBRASKTHVR';
+//   global.ETHERSCAN_NETWORK='rinkeby'
+//   global.OWNER_ADDR = '0x8847F80cB1b2B567679B3166A0C828453e122c7F'
 
-  let contractAddr='0x6Fc3d2D026dcec292850DBfD82C10E40e47aBb47'
-  await exports.getTxFee(contractAddr, global);
-}
+//   let contractAddr='0x6Fc3d2D026dcec292850DBfD82C10E40e47aBb47'
+//   await exports.getTxFee(contractAddr, global);
+// }
 
-test()
+// test()
