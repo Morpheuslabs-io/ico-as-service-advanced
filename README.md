@@ -14,3 +14,10 @@ Each component is described in detail in its `README`
   - It's recommended to create a 5GB-RAM workspace with pre-installed MongoDB for deployment.
 
   - Please refer to the `REAME.md` file provided in each component.
+
+  - The components must be started with the following sequence:
+
+    - `data-api`
+    - `chain-api`
+    - `admin-board`
+    - `user-board`

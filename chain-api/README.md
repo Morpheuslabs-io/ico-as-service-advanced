@@ -99,7 +99,7 @@ http://pm2.keymetrics.io/docs/usage/quick-start/
 
   - This is done only once. After that, do again if smart contract is modified.
 
-  - cmd: `npm run build`
+  - cmd: `npm run build` (the cmd also replaces the existing JSON files in `admin-board/src/artifacts` with the newly-built)
 
 **in foreground**
 
@@ -159,7 +159,7 @@ Please install `sqlite3` tool if not yet
 
 - `sqlite3 -column -header`: log in sqlite session
 
-- `.open "path_to_ico_dir/database/sqlite.db"`: open the database
+- `.open "absolute_path_to_ico_dir/database/sqlite.db"`: open the database
 
 - Example: `.open "/root/ICO-wizard-backend/database/sqlite.db"`
 

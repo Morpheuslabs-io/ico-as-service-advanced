@@ -18,7 +18,9 @@ The workspace should be created with the techstack that has MongoDB pre-installa
 
   - Copy the template file `.env.example` into own file `.env`
 
-  - Example: `PORT=3000`
+  - Only the `PORT` with default value of `3000` can be changed/adapted.
+
+  - The remaining params leave untouched
 
 ## System start
 
@@ -32,13 +34,13 @@ The workspace should be created with the techstack that has MongoDB pre-installa
 
   - in background:  `npm start`
 
-  - Server listens at port: `3000`
+  - Server listens at port: `3000` (set by the `PORT` in `.env` file)
 
 ### Start server (development)
 
   - in foreground:  `npm run dev`
 
-  - Server listens at port: `3000`
+  - Server listens at port: `3000` (set by the `PORT` in `.env` file)
 
 ### MongoDB-related handling in NodeJS
 
