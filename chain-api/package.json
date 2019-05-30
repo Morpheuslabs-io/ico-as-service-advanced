@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "rm -rf build && truffle compile --all",
+    "build": "rm -rf build && truffle compile --all && cp ./build/contracts/* ../admin-board/src/artifacts/",
     "server-rinkeby": "NODE_ENV=rinkeby PORT=3200 nodemon script/app.js --network rinkeby",
     "server-mainnet": "NODE_ENV=mainnet PORT=4006 nodemon script/app.js --network mainnet",
     "cron-rinkeby": "NODE_ENV=rinkeby nodemon script/cronjob.js --network rinkeby",
