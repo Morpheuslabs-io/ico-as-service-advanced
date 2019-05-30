@@ -68,7 +68,10 @@ exports.createKYCAML = async (req, res, next) => {
 
 exports.listKYCAMLs = async (req, res, next) => {
     const adminId = req.user._id;
-    Contract.find({userId: adminId}).sort('-createdAt').exec().then(contracts => {
+    Contract.list({userId: adminId}).then(contracts => {
+        if (!contracts || !contracts[0]) {
+          return res.status(200).json([]);
+        }
         const contractId = req.query.contractId ? req.query.contractId : contracts[0]._id;
         KYCAML.list({contractId: contractId}).then(contracts => {
             return res.status(200).json(contracts);

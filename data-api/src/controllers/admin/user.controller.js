@@ -86,6 +86,9 @@ exports.list = async (req, res, next) => {
     const net = req.params.net;
     const adminId = req.user._id;
     Contract.list({userId: adminId, network: net}).then(contracts => {
+        if (!contracts || !contracts[0]) {
+          return res.status(200).json([]);
+        }
         const contractId = req.query.contractId ? req.query.contractId : contracts[0]._id;
         User.list({role: "Investor", contractId: contractId}).then(users => {
             return res.status(200).json(users);
