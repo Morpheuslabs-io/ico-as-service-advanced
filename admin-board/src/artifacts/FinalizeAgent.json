@@ -67,24 +67,24 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405260008060006101000a81548160ff02191690831515021790555034801561002a57600080fd5b506101988061003a6000396000f30060806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630bf318a314610072578063614cb9041461008957806382771c8e146100b8578063cddaf241146100e7578063f9cb6d7a14610114575b600080fd5b34801561007e57600080fd5b50610087610143565b005b34801561009557600080fd5b5061009e610145565b604051808215151515815260200191505060405180910390f35b3480156100c457600080fd5b506100cd61014e565b604051808215151515815260200191505060405180910390f35b3480156100f357600080fd5b5061011260048036038101908080359060200190929190505050610157565b005b34801561012057600080fd5b5061012961015a565b604051808215151515815260200191505060405180910390f35b565b60006001905090565b60006001905090565b50565b6000809054906101000a900460ff16815600a165627a7a723058208fb682ccdd3ed4c8ec84498063fb6990c29b0888080e019cfdee1e5d9e95f6c70029",
-  "deployedBytecode": "0x60806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630bf318a314610072578063614cb9041461008957806382771c8e146100b8578063cddaf241146100e7578063f9cb6d7a14610114575b600080fd5b34801561007e57600080fd5b50610087610143565b005b34801561009557600080fd5b5061009e610145565b604051808215151515815260200191505060405180910390f35b3480156100c457600080fd5b506100cd61014e565b604051808215151515815260200191505060405180910390f35b3480156100f357600080fd5b5061011260048036038101908080359060200190929190505050610157565b005b34801561012057600080fd5b5061012961015a565b604051808215151515815260200191505060405180910390f35b565b60006001905090565b60006001905090565b50565b6000809054906101000a900460ff16815600a165627a7a723058208fb682ccdd3ed4c8ec84498063fb6990c29b0888080e019cfdee1e5d9e95f6c70029",
-  "sourceMap": "269:644:10:-;;;340:5;297:48;;;;;;;;;;;;;;;;;;;;269:644;8:9:-1;5:2;;;30:1;27;20:12;5:2;269:644:10;;;;;;;",
-  "deployedSourceMap": "269:644:10:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;868:42;;8:9:-1;5:2;;;30:1;27;20:12;5:2;868:42:10;;;;;;350:80;;8:9:-1;5:2;;;30:1;27;20:12;5:2;350:80:10;;;;;;;;;;;;;;;;;;;;;;;;;;;634:71;;8:9:-1;5:2;;;30:1;27;20:12;5:2;634:71:10;;;;;;;;;;;;;;;;;;;;;;;;;;;709:85;;8:9:-1;5:2;;;30:1;27;20:12;5:2;709:85:10;;;;;;;;;;;;;;;;;;;;;;;;;;297:48;;8:9:-1;5:2;;;30:1;27;20:12;5:2;297:48:10;;;;;;;;;;;;;;;;;;;;;;;;;;;868:42;:::o;350:80::-;402:4;421;414:11;;350:80;:::o;634:71::-;677:4;696;689:11;;634:71;:::o;709:85::-;;:::o;297:48::-;;;;;;;;;;;;;:::o",
+  "bytecode": "0x608060405260008060006101000a81548160ff02191690831515021790555034801561002a57600080fd5b506101988061003a6000396000f30060806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630bf318a314610072578063614cb9041461008957806382771c8e146100b8578063cddaf241146100e7578063f9cb6d7a14610114575b600080fd5b34801561007e57600080fd5b50610087610143565b005b34801561009557600080fd5b5061009e610145565b604051808215151515815260200191505060405180910390f35b3480156100c457600080fd5b506100cd61014e565b604051808215151515815260200191505060405180910390f35b3480156100f357600080fd5b5061011260048036038101908080359060200190929190505050610157565b005b34801561012057600080fd5b5061012961015a565b604051808215151515815260200191505060405180910390f35b565b60006001905090565b60006001905090565b50565b6000809054906101000a900460ff16815600a165627a7a7230582041e2020ce9e46dd59ebd8a64519d9a5b9957425f2bc830fbe25ca56799cd36c20029",
+  "deployedBytecode": "0x60806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630bf318a314610072578063614cb9041461008957806382771c8e146100b8578063cddaf241146100e7578063f9cb6d7a14610114575b600080fd5b34801561007e57600080fd5b50610087610143565b005b34801561009557600080fd5b5061009e610145565b604051808215151515815260200191505060405180910390f35b3480156100c457600080fd5b506100cd61014e565b604051808215151515815260200191505060405180910390f35b3480156100f357600080fd5b5061011260048036038101908080359060200190929190505050610157565b005b34801561012057600080fd5b5061012961015a565b604051808215151515815260200191505060405180910390f35b565b60006001905090565b60006001905090565b50565b6000809054906101000a900460ff16815600a165627a7a7230582041e2020ce9e46dd59ebd8a64519d9a5b9957425f2bc830fbe25ca56799cd36c20029",
+  "sourceMap": "269:644:11:-;;;340:5;297:48;;;;;;;;;;;;;;;;;;;;269:644;8:9:-1;5:2;;;30:1;27;20:12;5:2;269:644:11;;;;;;;",
+  "deployedSourceMap": "269:644:11:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;868:42;;8:9:-1;5:2;;;30:1;27;20:12;5:2;868:42:11;;;;;;350:80;;8:9:-1;5:2;;;30:1;27;20:12;5:2;350:80:11;;;;;;;;;;;;;;;;;;;;;;;;;;;634:71;;8:9:-1;5:2;;;30:1;27;20:12;5:2;634:71:11;;;;;;;;;;;;;;;;;;;;;;;;;;;709:85;;8:9:-1;5:2;;;30:1;27;20:12;5:2;709:85:11;;;;;;;;;;;;;;;;;;;;;;;;;;297:48;;8:9:-1;5:2;;;30:1;27;20:12;5:2;297:48:11;;;;;;;;;;;;;;;;;;;;;;;;;;;868:42;:::o;350:80::-;402:4;421;414:11;;350:80;:::o;634:71::-;677:4;696;689:11;;634:71;:::o;709:85::-;;:::o;297:48::-;;;;;;;;;;;;;:::o",
   "source": "/**\n * Issued by Morpheus Labs ICO as a Service Wizard\n */\npragma solidity ^0.4.24;\n\n/**\n * Finalize agent defines what happens at the end of succeseful crowdsale.\n *\n * - Allocate tokens for founders, bounties and community\n * - Make tokens transferable\n * - etc.\n */\ncontract FinalizeAgent {\n\n  bool public reservedTokensAreDistributed = false;\n\n  function isFinalizeAgent() public constant returns (bool) {\n    return true;\n  }\n\n  /** Return true if we can run finalizeCrowdsale() properly.\n   *\n   * This is a safety check function that doesn't allow crowdsale to begin\n   * unless the finalizer has been set up properly.\n   */\n  function isSane() public constant returns (bool) {\n    return true;\n  }\n\n  function distributeReservedTokens(uint reservedTokensDistributionBatch) public {\n\n  }\n\n  /** Called once by crowdsale finalize() if the sale was success. */\n  function finalizeCrowdsale() public {\n\n  }\n\n}",
-  "sourcePath": "/home/trungtt/Work/reference/morphe/ico/ico-as-service-new/contracts/lib/FinalizeAgent.sol",
+  "sourcePath": "/home/trungtt/Work/reference/morphe/lib-app/ico-as-service-advanced/chain-api/contracts/lib/FinalizeAgent.sol",
   "ast": {
-    "absolutePath": "/home/trungtt/Work/reference/morphe/ico/ico-as-service-new/contracts/lib/FinalizeAgent.sol",
+    "absolutePath": "/home/trungtt/Work/reference/morphe/lib-app/ico-as-service-advanced/chain-api/contracts/lib/FinalizeAgent.sol",
     "exportedSymbols": {
       "FinalizeAgent": [
-        2896
+        3191
       ]
     },
-    "id": 2897,
+    "id": 3192,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2866,
+        "id": 3161,
         "literals": [
           "solidity",
           "^",
@@ -92,7 +92,7 @@
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "59:24:10"
+        "src": "59:24:11"
       },
       {
         "baseContracts": [],
@@ -100,20 +100,20 @@
         "contractKind": "contract",
         "documentation": "Finalize agent defines what happens at the end of succeseful crowdsale.\n * - Allocate tokens for founders, bounties and community\n- Make tokens transferable\n- etc.",
         "fullyImplemented": true,
-        "id": 2896,
+        "id": 3191,
         "linearizedBaseContracts": [
-          2896
+          3191
         ],
         "name": "FinalizeAgent",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 2869,
+            "id": 3164,
             "name": "reservedTokensAreDistributed",
             "nodeType": "VariableDeclaration",
-            "scope": 2896,
-            "src": "297:48:10",
+            "scope": 3191,
+            "src": "297:48:11",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -121,10 +121,10 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 2867,
+              "id": 3162,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
-              "src": "297:4:10",
+              "src": "297:4:11",
               "typeDescriptions": {
                 "typeIdentifier": "t_bool",
                 "typeString": "bool"
@@ -133,14 +133,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "66616c7365",
-              "id": 2868,
+              "id": 3163,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "bool",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "340:5:10",
+              "src": "340:5:11",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_bool",
@@ -152,22 +152,22 @@
           },
           {
             "body": {
-              "id": 2876,
+              "id": 3171,
               "nodeType": "Block",
-              "src": "408:22:10",
+              "src": "408:22:11",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "74727565",
-                    "id": 2874,
+                    "id": 3169,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "bool",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "421:4:10",
+                    "src": "421:4:11",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -175,15 +175,15 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 2873,
-                  "id": 2875,
+                  "functionReturnParameters": 3168,
+                  "id": 3170,
                   "nodeType": "Return",
-                  "src": "414:11:10"
+                  "src": "414:11:11"
                 }
               ]
             },
             "documentation": null,
-            "id": 2877,
+            "id": 3172,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -191,23 +191,23 @@
             "name": "isFinalizeAgent",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2870,
+              "id": 3165,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "374:2:10"
+              "src": "374:2:11"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2873,
+              "id": 3168,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2872,
+                  "id": 3167,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2877,
-                  "src": "402:4:10",
+                  "scope": 3172,
+                  "src": "402:4:11",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -215,10 +215,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 2871,
+                    "id": 3166,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "402:4:10",
+                    "src": "402:4:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -228,32 +228,32 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "401:6:10"
+              "src": "401:6:11"
             },
-            "scope": 2896,
-            "src": "350:80:10",
+            "scope": 3191,
+            "src": "350:80:11",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2884,
+              "id": 3179,
               "nodeType": "Block",
-              "src": "683:22:10",
+              "src": "683:22:11",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "74727565",
-                    "id": 2882,
+                    "id": 3177,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "bool",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "696:4:10",
+                    "src": "696:4:11",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -261,15 +261,15 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 2881,
-                  "id": 2883,
+                  "functionReturnParameters": 3176,
+                  "id": 3178,
                   "nodeType": "Return",
-                  "src": "689:11:10"
+                  "src": "689:11:11"
                 }
               ]
             },
             "documentation": "Return true if we can run finalizeCrowdsale() properly.\n   * This is a safety check function that doesn't allow crowdsale to begin\nunless the finalizer has been set up properly.",
-            "id": 2885,
+            "id": 3180,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -277,23 +277,23 @@
             "name": "isSane",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2878,
+              "id": 3173,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "649:2:10"
+              "src": "649:2:11"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2881,
+              "id": 3176,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2880,
+                  "id": 3175,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2885,
-                  "src": "677:4:10",
+                  "scope": 3180,
+                  "src": "677:4:11",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -301,10 +301,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 2879,
+                    "id": 3174,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "677:4:10",
+                    "src": "677:4:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -314,23 +314,23 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "676:6:10"
+              "src": "676:6:11"
             },
-            "scope": 2896,
-            "src": "634:71:10",
+            "scope": 3191,
+            "src": "634:71:11",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2890,
+              "id": 3185,
               "nodeType": "Block",
-              "src": "788:6:10",
+              "src": "788:6:11",
               "statements": []
             },
             "documentation": null,
-            "id": 2891,
+            "id": 3186,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -338,16 +338,16 @@
             "name": "distributeReservedTokens",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2888,
+              "id": 3183,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2887,
+                  "id": 3182,
                   "name": "reservedTokensDistributionBatch",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2891,
-                  "src": "743:36:10",
+                  "scope": 3186,
+                  "src": "743:36:11",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -355,10 +355,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2886,
+                    "id": 3181,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "743:4:10",
+                    "src": "743:4:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -368,30 +368,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "742:38:10"
+              "src": "742:38:11"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2889,
+              "id": 3184,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "788:0:10"
+              "src": "788:0:11"
             },
-            "scope": 2896,
-            "src": "709:85:10",
+            "scope": 3191,
+            "src": "709:85:11",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2894,
+              "id": 3189,
               "nodeType": "Block",
-              "src": "904:6:10",
+              "src": "904:6:11",
               "statements": []
             },
             "documentation": "Called once by crowdsale finalize() if the sale was success. ",
-            "id": 2895,
+            "id": 3190,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -399,43 +399,43 @@
             "name": "finalizeCrowdsale",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2892,
+              "id": 3187,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "894:2:10"
+              "src": "894:2:11"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2893,
+              "id": 3188,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "904:0:10"
+              "src": "904:0:11"
             },
-            "scope": 2896,
-            "src": "868:42:10",
+            "scope": 3191,
+            "src": "868:42:11",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2897,
-        "src": "269:644:10"
+        "scope": 3192,
+        "src": "269:644:11"
       }
     ],
-    "src": "59:854:10"
+    "src": "59:854:11"
   },
   "legacyAST": {
-    "absolutePath": "/home/trungtt/Work/reference/morphe/ico/ico-as-service-new/contracts/lib/FinalizeAgent.sol",
+    "absolutePath": "/home/trungtt/Work/reference/morphe/lib-app/ico-as-service-advanced/chain-api/contracts/lib/FinalizeAgent.sol",
     "exportedSymbols": {
       "FinalizeAgent": [
-        2896
+        3191
       ]
     },
-    "id": 2897,
+    "id": 3192,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2866,
+        "id": 3161,
         "literals": [
           "solidity",
           "^",
@@ -443,7 +443,7 @@
           ".24"
         ],
         "nodeType": "PragmaDirective",
-        "src": "59:24:10"
+        "src": "59:24:11"
       },
       {
         "baseContracts": [],
@@ -451,20 +451,20 @@
         "contractKind": "contract",
         "documentation": "Finalize agent defines what happens at the end of succeseful crowdsale.\n * - Allocate tokens for founders, bounties and community\n- Make tokens transferable\n- etc.",
         "fullyImplemented": true,
-        "id": 2896,
+        "id": 3191,
         "linearizedBaseContracts": [
-          2896
+          3191
         ],
         "name": "FinalizeAgent",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 2869,
+            "id": 3164,
             "name": "reservedTokensAreDistributed",
             "nodeType": "VariableDeclaration",
-            "scope": 2896,
-            "src": "297:48:10",
+            "scope": 3191,
+            "src": "297:48:11",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -472,10 +472,10 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 2867,
+              "id": 3162,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
-              "src": "297:4:10",
+              "src": "297:4:11",
               "typeDescriptions": {
                 "typeIdentifier": "t_bool",
                 "typeString": "bool"
@@ -484,14 +484,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "66616c7365",
-              "id": 2868,
+              "id": 3163,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "bool",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "340:5:10",
+              "src": "340:5:11",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_bool",
@@ -503,22 +503,22 @@
           },
           {
             "body": {
-              "id": 2876,
+              "id": 3171,
               "nodeType": "Block",
-              "src": "408:22:10",
+              "src": "408:22:11",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "74727565",
-                    "id": 2874,
+                    "id": 3169,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "bool",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "421:4:10",
+                    "src": "421:4:11",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -526,15 +526,15 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 2873,
-                  "id": 2875,
+                  "functionReturnParameters": 3168,
+                  "id": 3170,
                   "nodeType": "Return",
-                  "src": "414:11:10"
+                  "src": "414:11:11"
                 }
               ]
             },
             "documentation": null,
-            "id": 2877,
+            "id": 3172,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -542,23 +542,23 @@
             "name": "isFinalizeAgent",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2870,
+              "id": 3165,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "374:2:10"
+              "src": "374:2:11"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2873,
+              "id": 3168,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2872,
+                  "id": 3167,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2877,
-                  "src": "402:4:10",
+                  "scope": 3172,
+                  "src": "402:4:11",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -566,10 +566,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 2871,
+                    "id": 3166,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "402:4:10",
+                    "src": "402:4:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -579,32 +579,32 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "401:6:10"
+              "src": "401:6:11"
             },
-            "scope": 2896,
-            "src": "350:80:10",
+            "scope": 3191,
+            "src": "350:80:11",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2884,
+              "id": 3179,
               "nodeType": "Block",
-              "src": "683:22:10",
+              "src": "683:22:11",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "74727565",
-                    "id": 2882,
+                    "id": 3177,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "bool",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "696:4:10",
+                    "src": "696:4:11",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -612,15 +612,15 @@
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 2881,
-                  "id": 2883,
+                  "functionReturnParameters": 3176,
+                  "id": 3178,
                   "nodeType": "Return",
-                  "src": "689:11:10"
+                  "src": "689:11:11"
                 }
               ]
             },
             "documentation": "Return true if we can run finalizeCrowdsale() properly.\n   * This is a safety check function that doesn't allow crowdsale to begin\nunless the finalizer has been set up properly.",
-            "id": 2885,
+            "id": 3180,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -628,23 +628,23 @@
             "name": "isSane",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2878,
+              "id": 3173,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "649:2:10"
+              "src": "649:2:11"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2881,
+              "id": 3176,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2880,
+                  "id": 3175,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2885,
-                  "src": "677:4:10",
+                  "scope": 3180,
+                  "src": "677:4:11",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -652,10 +652,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 2879,
+                    "id": 3174,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "677:4:10",
+                    "src": "677:4:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -665,23 +665,23 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "676:6:10"
+              "src": "676:6:11"
             },
-            "scope": 2896,
-            "src": "634:71:10",
+            "scope": 3191,
+            "src": "634:71:11",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2890,
+              "id": 3185,
               "nodeType": "Block",
-              "src": "788:6:10",
+              "src": "788:6:11",
               "statements": []
             },
             "documentation": null,
-            "id": 2891,
+            "id": 3186,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -689,16 +689,16 @@
             "name": "distributeReservedTokens",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2888,
+              "id": 3183,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2887,
+                  "id": 3182,
                   "name": "reservedTokensDistributionBatch",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2891,
-                  "src": "743:36:10",
+                  "scope": 3186,
+                  "src": "743:36:11",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -706,10 +706,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2886,
+                    "id": 3181,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "743:4:10",
+                    "src": "743:4:11",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -719,30 +719,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "742:38:10"
+              "src": "742:38:11"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2889,
+              "id": 3184,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "788:0:10"
+              "src": "788:0:11"
             },
-            "scope": 2896,
-            "src": "709:85:10",
+            "scope": 3191,
+            "src": "709:85:11",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 2894,
+              "id": 3189,
               "nodeType": "Block",
-              "src": "904:6:10",
+              "src": "904:6:11",
               "statements": []
             },
             "documentation": "Called once by crowdsale finalize() if the sale was success. ",
-            "id": 2895,
+            "id": 3190,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -750,36 +750,36 @@
             "name": "finalizeCrowdsale",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2892,
+              "id": 3187,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "894:2:10"
+              "src": "894:2:11"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2893,
+              "id": 3188,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "904:0:10"
+              "src": "904:0:11"
             },
-            "scope": 2896,
-            "src": "868:42:10",
+            "scope": 3191,
+            "src": "868:42:11",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 2897,
-        "src": "269:644:10"
+        "scope": 3192,
+        "src": "269:644:11"
       }
     ],
-    "src": "59:854:10"
+    "src": "59:854:11"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+    "version": "0.4.25+commit.59dbf8f1.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "2.0.1",
-  "updatedAt": "2019-02-19T06:25:51.441Z"
+  "schemaVersion": "2.0.2",
+  "updatedAt": "2019-05-30T13:48:06.971Z"
 }
