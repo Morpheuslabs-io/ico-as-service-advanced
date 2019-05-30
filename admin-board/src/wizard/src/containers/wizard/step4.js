@@ -12,11 +12,11 @@ import {setDeploy, setStep} from "../../redux/actions";
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 
-import SafeMathLibExt from '../../artifacts/SafeMathLibExt';
-import CrowdsaleTokenExt from '../../artifacts/CrowdsaleTokenExt';
-import FlatPricingExt from '../../artifacts/FlatPricingExt';
-import ReservedTokensFinalizeAgent from '../../artifacts/ReservedTokensFinalizeAgent';
-import MintedTokenCappedCrowdsaleExt from '../../artifacts/MintedTokenCappedCrowdsaleExt';
+import SafeMathLibExt from '../../../../artifacts/SafeMathLibExt';
+import CrowdsaleTokenExt from '../../../../artifacts/CrowdsaleTokenExt';
+import FlatPricingExt from '../../../../artifacts/FlatPricingExt';
+import ReservedTokensFinalizeAgent from '../../../../artifacts/ReservedTokensFinalizeAgent';
+import MintedTokenCappedCrowdsaleExt from '../../../../artifacts/MintedTokenCappedCrowdsaleExt';
 
 class Step4 extends Component {
 
