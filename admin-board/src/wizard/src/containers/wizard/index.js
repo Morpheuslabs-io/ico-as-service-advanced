@@ -289,7 +289,7 @@ class Wizard extends Component {
     let data = '';
     let isError = false;
 
-    axiosWizard.defaults.baseURL = this.props.net.type === 'rinkeby' ? process.env.REACT_APP_WIZARD_API_RINKEBY : process.env.REACT_APP_WIZARD_API_MAINNET;
+    axiosWizard.defaults.baseURL = this.props.net.type === 'rinkeby' ? process.env.REACT_APP_CHAIN_API_RINKEBY : process.env.REACT_APP_CHAIN_API_MAINNET;
     
     if (process.env.REACT_APP_DEV_LOCAL == 1) {
       axiosWizard.defaults.baseURL = process.env.REACT_APP_WIZARD_API_LOCALHOST

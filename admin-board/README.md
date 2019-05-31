@@ -19,9 +19,9 @@ Admin dashboard for controlling/managing:
 
   - Only the `PORT=8080` as HTTP port of the `admin board` might not be changed, the following params must be changed/adapted according to the workspace: 
 
-    - `REACT_APP_API_SERVER`: `data-api` server URL
+    - `REACT_APP_DATA_SERVER`: `data-api` server URL
 
-    - `REACT_APP_WIZARD_API_RINKEBY`: `chain-api` server URL on Rinkeby
+    - `REACT_APP_CHAIN_API_RINKEBY`: `chain-api` server URL on Rinkeby
 
     - `REACT_APP_KYCAML_PHOTO`: location that stores the uploaded images/files
 

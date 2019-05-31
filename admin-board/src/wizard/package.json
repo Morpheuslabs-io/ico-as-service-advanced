@@ -76,8 +76,8 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "start": "REACT_APP_API_SERVER=http://104.248.144.168:4000 node scripts/start.js",
-    "dev": "REACT_APP_API_SERVER=http://localhost:4000 node scripts/start.js",
+    "start": "REACT_APP_DATA_SERVER=http://104.248.144.168:4000 node scripts/start.js",
+    "dev": "REACT_APP_DATA_SERVER=http://localhost:4000 node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },

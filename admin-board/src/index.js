@@ -20,7 +20,7 @@ import * as types from "./redux/types";
 import {setAuthorizationHeader} from "./containers/Utils/Util";
 
 dotenv.config();
-axios.defaults.baseURL = process.env.REACT_APP_DEV_LOCAL ? process.env.REACT_APP_API_SERVER_LOCALHOST : process.env.REACT_APP_API_SERVER;
+axios.defaults.baseURL = process.env.REACT_APP_DEV_LOCAL ? process.env.REACT_APP_DATA_SERVER_LOCALHOST : process.env.REACT_APP_DATA_SERVER;
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 axios.interceptors.response.use( response => response, error => {
   if (error.response.status === 401) {
