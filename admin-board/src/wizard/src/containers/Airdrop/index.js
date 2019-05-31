@@ -21,12 +21,11 @@ import 'antd/dist/antd.css';
 import { Link, Redirect } from "react-router-dom";
 
 import swal from "sweetalert2";
-
+import { isUiEnabled } from "../../../../containers/Utils/blockchainHelper"
 import {
   validMetamask,
-  isUiEnabled,
   preCheckMetaMask
-} from "../../../../containers/Utils/blockchainHelper";
+} from "./blockchainHelperAirDrop";
 
 import AirdropList from '../../components/wizard/airdrop/AirdropList';
 

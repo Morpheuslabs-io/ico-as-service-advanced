@@ -24,7 +24,8 @@ import swal from "sweetalert2";
 
 import {
   validMetamask,
-  isUiEnabled
+  isUiEnabled,
+  preCheckMetaMask
 } from "../../containers/Utils/blockchainHelper";
 
 dotenv.config('.env');
@@ -102,18 +103,15 @@ class Contract extends Component {
     if (!isUiEnabled(this.props.auth.user.uiconfig, 'ico')) {
       return <Redirect to="/uisetting"/>
     }
+
+    preCheckMetaMask()
     
     const columns = [
       {
         title: 'Token Name',
         dataIndex: 'name',
         render: (text, record) => {
-          if (this.preCheckMetaMask() === true) {
-            return <Link to={`/contracts/${record.id}`}>{text}</Link>
-          } else {
-            return <b>{text}</b>
-          }
-          
+          return <Link to={`/contracts/${record.id}`}>{text}</Link>
         },
         sorter: (a, b) => a.name.localeCompare(b.name),
       },

@@ -15,15 +15,11 @@ import swal from "sweetalert2";
 import AirdropModal from './AirdropModal'
 
 import {
-  validMetamask,
-  isUiEnabled,
-  getERC20TokenDetails,
   isValidAddress,
   getMetamaskAddress,
   getNetworkName,
-  doAirdrop,
   preCheckMetaMask
-} from "../../../../../containers/Utils/blockchainHelper"
+} from "../../../containers/Airdrop/blockchainHelperAirDrop"
 
 class AirdropList extends Component {
 

@@ -19,6 +19,10 @@ import BottomButtons from './BottomButtons';
 // import {setError, setStep, setStep2, setStep3, setDeploy} from '../../redux/actions';
 import {setError, setStep, setStep2, setStep3, setDeploy} from '../../redux/actions';
 import {countDecimalPlaces, diffDates, isValidEmailAddress, isValidAddress, toFixed, validMetamask} from '../../components/wizard/Utils';
+import {
+  preCheckMetaMask,
+  getMetamaskAddress
+} from "../../../../containers/Utils/blockchainHelper";
 import axios from "axios";
 import _ from "lodash";
 
@@ -92,7 +96,7 @@ class Wizard extends Component {
         if (errorName === '' && errorTicker === '' && errorDecimals === '') {
           setStep3({
             ...step3,
-            wallet_address: web3 ? web3.eth.accounts[0] : '',
+            wallet_address: '',
           });
 
           if (step === 5) return;
@@ -441,6 +445,7 @@ class Wizard extends Component {
   };
 
   render() {
+    preCheckMetaMask()
     let stepContent = null;
     const {step} = this.props;
 

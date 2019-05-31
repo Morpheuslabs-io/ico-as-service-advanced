@@ -9,11 +9,17 @@ import FLAT_PRICING_CONTRACT from '../../artifacts/FlatPricingExt';
 
 import AIRDROP_CONTRACT from '../../artifacts/Airdrop';
 
-let _web3 = null;
+// let _web3 = null;
+// if (typeof(window.web3) !== 'undefined') {
+//   _web3 = window.web3;
+// }
+
+let web3 = null;
 if (typeof(window.web3) !== 'undefined') {
-  _web3 = window.web3;
+  web3 = new Web3(window.web3.currentProvider);
 }
-let web3 = new Web3(_web3.currentProvider);
+
+// let web3 = new Web3(_web3.currentProvider);
 let crowdsaleTokenContract = web3.eth.contract(CROWDSALE_TOKEN_CONTRACT.abi);
 let mintedTokenCappedCrowdsaleExtContract = web3.eth.contract(MINTED_TOKEN_CAPPED_CROWDSALE_EXT_CONTRACT.abi);
 let flatPricingContract = web3.eth.contract(FLAT_PRICING_CONTRACT.abi);
@@ -36,20 +42,13 @@ export const promisify = (inner) =>
   );
 
 export const getMetamaskAddress = () => {
-  let addr = null
-  if (_web3 != null) {
-    let w = new Web3(_web3.currentProvider);
-    if (w.eth.accounts.length > 0) {
-      addr = w.eth.accounts[0];
-    } else {
-      // return null;
-    }
-  } else {
-    // swal("Please install your metamask", "", "warning");
-    // return null;
+  try {
+    let addr = web3 !== null ? web3.eth.accounts[0] : null
+    console.log(`getMetamaskAddress: ${addr}`);
+    return addr
+  } catch (err) {
+    return null
   }
-  console.log(`getMetamaskAddress: ${addr}`);
-  return addr
 };
 
 export const preCheckMetaMask = () => {
@@ -72,8 +71,14 @@ export const preCheckMetaMask = () => {
 }
 
 export const getNetworkName = () => {
+  let networkId
+  try {
+    networkId = web3.version.network
+  } catch (err) {
+    console.log('getNetworkName - Error:', err);
+    return ""
+  }
   
-  let networkId = web3.version.network
   let networkName = ""
 
   switch (networkId) {

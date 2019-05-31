@@ -12,14 +12,12 @@ import {
 } from 'reactstrap'
 import Spinner from 'react-spinkit'
 import {
-  validMetamask,
-  isUiEnabled,
   getERC20TokenDetails,
   isValidAddress,
   getMetamaskAddress,
   getNetworkName,
   doAirdrop
-} from "../../../../../containers/Utils/blockchainHelper"
+} from "../../../containers/Airdrop/blockchainHelperAirDrop"
 import xhr from "axios";
 import Web3 from "web3";
 import swal from "sweetalert2";
@@ -298,6 +296,13 @@ class AirdropModalContainer extends Component {
   }
 
   render () {
+
+    try {
+      getNetworkName()
+    } catch (err) {
+      // Reload the page to get again a working web3!  
+      window.location.reload()
+    }
     const { value, tokenInfo, airdropAddressBatch, airdropTokenAmount, airdropReceiverAmount, userAccount } = this.state
     const { showModal, isProcessing, handleToggleModal, erc20Address, airdroplist, resourceHandleErr } = this.props
     const userBalance=0
