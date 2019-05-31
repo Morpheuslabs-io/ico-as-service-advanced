@@ -1,37 +1,43 @@
-# ICO As Service User UI
+# ICO As Service User Frontend
 
-User dashbaord UI for Ico as service
+User dashboard for viewing/registering:
 
-## Installation
+  - KYC
+  - Investment
 
-``` bash
-# clone the repo
-$ git clone https://github.com/Morpheuslabs-io/ico-as-service-user.git
+## Installation 
 
-# go into app's directory
-$ cd ico-as-service-user
+### Dependencies
 
-# install app's dependencies
-$ npm install
-```
+`npm i`
 
-Copy `.env.example` to `.env` and config parameters
+## Configuration
 
-```dotenv
-PORT=9090
-CHOKIDAR_USEPOLLING=true
+  - Copy the template file `.env.example` into own file `.env`
 
-REACT_APP_WIZARD_URL=http://localhost:3000
-REACT_APP_API_HOST=http://localhost:3777/v1
-REACT_APP_RNDKEY=0xekfjguryehwghdfsvxbcndhfyetry4
-REACT_APP_KYCAML_PHOTO=http://localhost:3777/static/kyc
+  - Only the `PORT=8090` as HTTP port of the `admin board` might not be changed, the following params must be changed/adapted according to the workspace: 
 
-```
+    - `REACT_APP_API_SERVER`: `data-api` server URL
 
-## Run
+    - `REACT_APP_KYCAML_PHOTO`: location that stores the uploaded images/files
 
-```bash
-# run app
-$ npm start
-```
-visit http://localhost:9090
+## System start
+
+### Production
+
+  - cmd: `pm2 start pm2/script_start_user_board.sh`
+
+  - Server listens at port `8090`
+
+### Local development
+
+  - cmd: `npm run dev`
+
+  - Server listens at port `8090`
+
+## Access the running app
+
+This is a web app running and listenning at port `8090`.
+To determine its URL, have a look at the `Machines` small panel and then right-click on (for example) `truffle/dev-machine` to select `Servers`. This will show up a view where the web-app `https` link can be seen at the
+row `http-server`. Please be noted that, all the ports displayed in this view mean to be reserved for external access.
+
