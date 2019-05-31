@@ -17,7 +17,7 @@ User dashboard for viewing/registering:
 
   - Only the `PORT=8090` as HTTP port of the `admin board` might not be changed, the following params must be changed/adapted according to the workspace: 
 
-    - `REACT_APP_API_SERVER`: `data-api` server URL
+    - `REACT_APP_DATA_SERVER`: `data-api` server URL
 
     - `REACT_APP_KYCAML_PHOTO`: location that stores the uploaded images/files
 

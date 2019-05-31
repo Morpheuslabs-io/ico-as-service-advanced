@@ -18,7 +18,7 @@ import axios from "axios";
 import dotenv from "dotenv";
 
 dotenv.config();
-axios.defaults.baseURL = process.env.REACT_APP_DEV_LOCAL ? process.env.REACT_APP_API_SERVER_LOCALHOST : process.env.REACT_APP_API_SERVER;
+axios.defaults.baseURL = process.env.REACT_APP_DEV_LOCAL ? process.env.REACT_APP_DATA_SERVER_LOCALHOST : process.env.REACT_APP_DATA_SERVER;
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 // Create history object, redux store
