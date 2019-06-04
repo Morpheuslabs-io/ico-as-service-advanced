@@ -148,8 +148,7 @@ class Login extends Component {
                   <CardBody className="text-center">
                     <div>
                       <h1 className="text-white">Register</h1>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
+                      <p>To register a new account, please click the below button.</p>
                       <Link to="/register">
                         <Button color="primary" className="mt-3" active tabIndex={-1}>Register Now!</Button>
                       </Link>
