@@ -30,6 +30,10 @@ The workspace should be created with the techstack that has MongoDB pre-installa
 
   - MongoDB server listens at port `27017`
 
+### Create folder for storing KYC
+
+Create a folder named `kyc` in `./static/` for storing the KYC images/files.
+
 ### Start server (production)
 
   - in background:  `npm start`
