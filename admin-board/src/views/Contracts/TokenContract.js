@@ -35,7 +35,7 @@ class TokenContract extends Component {
     getTokenDetails(contractAddress).then(token => {
       setToken({
         ...token,
-        totalSupply: token.totalSupply / 10**token.decimals
+        totalSupply: token.totalSupply
       });
     });
   }

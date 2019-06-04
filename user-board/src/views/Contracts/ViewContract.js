@@ -153,7 +153,7 @@ class ViewContract extends Component {
         this.setState({
           token: {
             ...token,
-            totalSupply: token.totalSupply / 10**token.decimals
+            totalSupply: token.totalSupply
           }
         });
       });
