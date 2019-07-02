@@ -87,17 +87,6 @@ class Contract extends Component {
     this.props.history.push('/startico');
   };
 
-  preCheckMetaMask = () => {
-    if (validMetamask() === 0) {
-      swal("Metamask is not available. Please install Metamask extension and sign in.", "", "warning");
-      return false
-    } else if (validMetamask() === 1) {
-      swal("Please open and sign in Metamask.", "", "warning");
-      return false
-    } else {
-      return true
-    }
-  }
 
   render() {
     if (!isUiEnabled(this.props.auth.user.uiconfig, 'ico')) {

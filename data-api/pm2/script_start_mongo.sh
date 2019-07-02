@@ -1,1 +1,1 @@
-mongod --dbpath ~/Work/mongodb/ --bind_ip_all
+mongod --dbpath ~/Work/mongodb/
