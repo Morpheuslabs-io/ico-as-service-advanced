@@ -51,9 +51,20 @@ export const getMetamaskAddress = () => {
   }
 };
 
-export const preCheckMetaMask = () => {
+export const preCheckMetaMask = async () => {
   if (!web3) {
     swal("Metamask is not available. Please install Metamask extension and sign in.", "", "warning");
+  }
+
+  const isMetamaskApproved = await window.ethereum._metamask.isApproved();
+  if (!isMetamaskApproved) {
+    try {
+      await window.ethereum.enable();
+    } catch (e) {
+      // User denied access
+      swal("Please allow Metamask", "", "warning");
+      return;
+    }
   }
   
   // console.log('web3.version:', web3.version.network);
