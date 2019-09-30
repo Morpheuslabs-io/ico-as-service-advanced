@@ -119,20 +119,21 @@ class AirdropModalContainer extends Component {
 
     airdropTokenAmount *= 10**tokenInfo.decimals
     let i=0
+    const airdropTokenAmountStr = airdropTokenAmount.toString()
 
     this.getAllowance()
       .then(allowance => {
         if (allowance === 0) {
           console.log('approveAndDoAirdrop - No allowance yet');
 
-          return new Promise((resolve, reject) => instance.approve(airdropContractAddress, airdropTokenAmount, gasOpt, (err, res) => {
+          return new Promise((resolve, reject) => instance.approve(airdropContractAddress, airdropTokenAmountStr, gasOpt, (err, res) => {
             if (err) return reject(err);
             else {
               console.log('approveAndDoAirdrop for allowance:', res);
               
               setTimeout(() => {
                 this.doAirdropBatch(tokenInfo.address, airdropContractAddress, airdropAddressBatch, airdropAmountBatch, i)
-              }, 30*1000);
+              }, 2*60*1000);
 
               return resolve(res);
             }
@@ -146,14 +147,14 @@ class AirdropModalContainer extends Component {
             if (err) return reject(err);
             else {
               console.log('approveAndDoAirdrop for 0 allowance:', res);
-              return new Promise((resolve, reject) => instance.approve(airdropContractAddress, airdropTokenAmount, gasOpt, (err, res) => {
+              return new Promise((resolve, reject) => instance.approve(airdropContractAddress, airdropTokenAmountStr, gasOpt, (err, res) => {
                 if (err) return reject(err);
                 else {
                   console.log('approveAndDoAirdrop for allowance:', res);
                   
                   setTimeout(async () => {
                     this.doAirdropBatch(tokenInfo.address, airdropContractAddress, airdropAddressBatch, airdropAmountBatch, i)
-                  }, 30*1000);
+                  }, 2*60*1000);
 
                   return resolve(res);
                 }

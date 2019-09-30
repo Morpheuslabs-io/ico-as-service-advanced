@@ -86,6 +86,7 @@ export const doAirdrop = (erc20Address, airdropAddress, addresses, amounts) => {
   const instance = airdropContract.at(airdropAddress);
 
   const gasOpt = {
+    gas: 1944053,
     from: getMetamaskAddress()
   };
   
