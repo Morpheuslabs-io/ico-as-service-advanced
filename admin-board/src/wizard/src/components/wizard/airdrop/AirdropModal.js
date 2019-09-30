@@ -106,7 +106,7 @@ class AirdropModalContainer extends Component {
   }
 
   approveAndDoAirdrop = () => {
-    let {tokenInfo, airdropTokenAmount, erc20ContractInst, userAccount, gasPrice, airdropAddressBatch, airdropAmountBatch, airdropContractAddress} = this.state
+    let {tokenInfo, airdropTokenAmount, erc20ContractInst, userAccount, gasPrice, airdropAddressBatch, airdropAmountBatch, airdropContractAddress, web3} = this.state
     let instance = erc20ContractInst.at(tokenInfo.address)
     
     // const GAS = process.env.REACT_APP_GAS;
@@ -117,9 +117,8 @@ class AirdropModalContainer extends Component {
       from: userAccount
     };
 
-    airdropTokenAmount *= 10**tokenInfo.decimals
     let i=0
-    const airdropTokenAmountStr = airdropTokenAmount.toString()
+    const airdropTokenAmountStr = web3.toHex(web3.toWei(airdropTokenAmount.toString(), 'ether'))
 
     this.getAllowance()
       .then(allowance => {
@@ -256,6 +255,7 @@ class AirdropModalContainer extends Component {
 
       let airdropAmountBatch = []
       let airdropAmountBatchEntry = []
+      const { web3 } = this.state
 
       for (let i=0; i<airdroplist.length; i++) {
         let airdropListEntry = airdroplist[i]
@@ -271,7 +271,7 @@ class AirdropModalContainer extends Component {
         }
 
         airdropAddressBatchEntry.push(airdropListEntry.address)
-        airdropAmountBatchEntry.push(airdropListEntry.amount * (10**this.state.tokenInfo.decimals))
+        airdropAmountBatchEntry.push(web3.toHex(web3.toWei(airdropListEntry.amount.toString(), 'ether')))
       }
 
       airdropAddressBatch.push(airdropAddressBatchEntry)
