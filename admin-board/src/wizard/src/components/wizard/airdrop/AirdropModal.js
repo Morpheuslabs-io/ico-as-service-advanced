@@ -280,7 +280,7 @@ class AirdropModalContainer extends Component {
       this.setState({
         airdropAddressBatch,
         airdropAmountBatch,
-        airdropTokenAmount,
+        airdropTokenAmount: Math.ceil(airdropTokenAmount),
         airdropReceiverAmount: airdroplist.length
       })
     }
