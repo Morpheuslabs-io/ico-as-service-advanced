@@ -6,6 +6,7 @@ Contain a number of components all together for providing the ICO-as-service:
   - `data-api`: provide rest APIs for data storage
   - `chain-api`: provide rest APIs for blockchain-related handling
   - `user-board`: provide the user board
+  - `token vesting`: team token vesting
 
 Each component is described in detail in its `README`
 
